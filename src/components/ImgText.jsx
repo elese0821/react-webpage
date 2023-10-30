@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ImageText = (props) => {
+const ImgText = ( props ) => {
     return (
         <section id="imgTextType" className={`imgText__wrap ${props.element}`}>
             <h2 className="blind">{props.title}</h2>
@@ -29,4 +29,4 @@ const ImageText = (props) => {
     )
 }
 
-export default ImageText
+export default ImgText

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Image = (props) => {
+const Image = ( props ) => {
     return (
         <section id="imageType" className={`imageType__wrap ${props.element}`}>
             <h2>{props.title}</h2>

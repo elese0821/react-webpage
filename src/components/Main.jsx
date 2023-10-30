@@ -1,9 +1,11 @@
 import React from 'react'
 
-const Main = () => {
-  return (
-    <Main />
-  )
+const Main = ({ children }) => {
+    return (
+        <main id="main" role="main">
+            { children }
+        </main>
+    )
 }
 
 export default Main

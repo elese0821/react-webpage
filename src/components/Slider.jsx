@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Slider = (props) => {
+const Slider = ( props ) => {
     return (
-        <section id="slideType" className={`slider__wrap ${props.nexon}`}>
-            <h2 className="blind">{props.title}</h2>
+        <section id="sliderType" className={`slider__wrap ${props.element}`}>
+            <h2 className="blind">슬라이드 유형</h2>
             <div className="slider__inner">
                 <div className="slider">
                     <div className="slider__img">
